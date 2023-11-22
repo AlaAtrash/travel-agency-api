@@ -18,10 +18,9 @@ services:
       - DB_PORT=5432
       - DB_SCHAME=public
 
-
   postgresagency:
     image: postgres
-    container_name: 
+    container_name: postgresagency 
     environment:
       POSTGRES_USER: admin 
       POSTGRES_PASSWORD: admin
