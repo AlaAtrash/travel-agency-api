@@ -6,7 +6,7 @@ export class PlanController {
 
     @Get()
     get(): string  {
-        return 'first method'
+        return 'travel plans and destinations'
     }
 
     @Get('/id/:idparam')
