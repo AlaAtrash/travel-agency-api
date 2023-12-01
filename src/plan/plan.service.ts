@@ -4,6 +4,6 @@ import { Injectable } from '@nestjs/common';
 export class PlanService {
     
     getServices= () => {
-        return ['service1', 'service2']
+        return ['service1', 'service2', 'service3', 'service4', 'service5']
     }
 }
