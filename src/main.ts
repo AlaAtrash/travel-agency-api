@@ -8,7 +8,7 @@ async function bootstrap() {
 
   const config = new DocumentBuilder()
     .setTitle('Travel Agency')
-    .setDescription('Travel Agency API description')
+    .setDescription('Travel Agency API description for HETIC')
     .setVersion('1.0')
     .build();
   const document = SwaggerModule.createDocument(app, config);
