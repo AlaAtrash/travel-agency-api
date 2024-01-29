@@ -7,11 +7,10 @@ export class AppController {
 
   @Get()
   getHello(): string {
-    return this.appService.getHello();
+    return "HELLOOOO this is get";
   }
 
   @Delete()
   postingTest(): string {
-    return this.appService.getHello();
-  }
+    return "HELLOOOO this is delete";  }
 }
